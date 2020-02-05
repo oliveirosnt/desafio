@@ -1,29 +1,24 @@
-# Desafio Teste Unitário
+# Para rodar o teste criado
 
-## Project setup
+## Fazer setup do projeto
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Colocar projeto para rodar localmente
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Abrir o cypress no windows
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+npx cypress open
 ```
 
-### Lints and fixes files
+### Abrir o cypress no ubuntu
 ```
-npm run lint
+node_modules/cypress/bin/cypress open
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Com o cypress aberto, selecionar a pasta "tests" e depois dar duplo clique no arquivo "fluxo_principal.spec.js".
+O navegador deve abrir e o cypress deve executar o caso de teste automatizado com sucesso.
