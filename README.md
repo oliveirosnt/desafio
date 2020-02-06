@@ -10,6 +10,8 @@ npm install
 npm run serve
 ```
 
+Em outro terminal, chegar até a pasta raiz do projeto e dar o seguinte comando:
+
 ### Abrir o cypress no windows
 ```
 npx cypress open
